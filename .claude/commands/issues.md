@@ -5,7 +5,7 @@ Show all open issues organized by project.
 ## Instructions
 
 ```bash
-gh search issues --author jordanpartridge --state open --json repository,title,url,createdAt --limit 30
+gh search issues --author shadetheory --state open --json repository,title,url,createdAt --limit 30
 ```
 
 ## Output Format
@@ -14,11 +14,11 @@ gh search issues --author jordanpartridge --state open --json repository,title,u
 ╔══════════════════════════════════════════════════════════════════╗
 ║                        OPEN ISSUES                                ║
 ╠══════════════════════════════════════════════════════════════════╣
-║  📦 CHAT (jordanpartridge/chat)                                   ║
+║  📦 CHAT (shadetheory/chat)                                   ║
 ║  ├── #X [title]                                                   ║
 ║  ├── #X [title]                                                   ║
 ╠──────────────────────────────────────────────────────────────────╣
-║  📦 FINANCES (jordanpartridge/finances)                           ║
+║  📦 FINANCES (shadetheory/finances)                           ║
 ║  ├── #X [title]                                                   ║
 ╠──────────────────────────────────────────────────────────────────╣
 ║  📦 THE-SHIT/CORE                                                 ║
