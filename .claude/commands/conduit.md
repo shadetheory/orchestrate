@@ -13,7 +13,7 @@ gh pr list --repo conduit-ui/conduit --state open --json title,url,createdAt --l
 gh issue list --repo conduit-ui/conduit --state open --limit 10
 
 # Component ecosystem
-gh repo list jordanpartridge --json name,description,pushedAt | jq '.[] | select(.name | startswith("conduit-"))'
+gh repo list shadetheory --json name,description,pushedAt | jq '.[] | select(.name | startswith("conduit-"))'
 
 # Related orgs
 gh repo list conduit-ui --json name,description,pushedAt 2>/dev/null
