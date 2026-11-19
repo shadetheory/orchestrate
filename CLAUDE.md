@@ -39,8 +39,8 @@ Task(agent="general-purpose", prompt="Analyze repo3", background=true)
 ```
 # Spawn one agent per repo
 Agent 1: "Analyze issues in conduit-ui/conduit"
-Agent 2: "Analyze issues in jordanpartridge/chat"
-Agent 3: "Analyze issues in jordanpartridge/finances"
+Agent 2: "Analyze issues in shadetheory/chat"
+Agent 3: "Analyze issues in shadetheory/finances"
 # All run simultaneously, synthesize results after
 ```
 
@@ -64,7 +64,7 @@ Task(agent="git-commit-manager", prompt="Commit the changes we made to CLAUDE.md
 ### Priority Projects (Active Focus)
 - `conduit-ui/conduit` - Developer Liberation Platform (Laravel Zero CLI)
 - `conduit-knowledge` - AI-powered codebase understanding
-- `jordanpartridge/chat` - Multi-model AI chat (Laravel 12 + Vue 3)
+- `shadetheory/chat` - Multi-model AI chat (Laravel 12 + Vue 3)
 
 ### Infrastructure (Maintained)
 - `github-client` - Laravel GitHub API wrapper (Saloon-based)

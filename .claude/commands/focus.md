@@ -5,8 +5,8 @@ Show status of ONLY the priority projects, filtering out all noise.
 ## Priority Projects
 
 1. **conduit-ui/conduit** - The platform
-2. **jordanpartridge/conduit-knowledge** - The differentiator
-3. **jordanpartridge/chat** - The AI layer
+2. **shadetheory/conduit-knowledge** - The differentiator
+3. **shadetheory/chat** - The AI layer
 
 ## Instructions
 
@@ -19,12 +19,12 @@ gh pr list --repo conduit-ui/conduit --state open --json title,url,createdAt --l
 gh issue list --repo conduit-ui/conduit --state open --limit 5
 
 # Conduit knowledge
-gh repo view jordanpartridge/conduit-knowledge --json pushedAt,openIssues 2>/dev/null || echo "Check repo status"
+gh repo view shadetheory/conduit-knowledge --json pushedAt,openIssues 2>/dev/null || echo "Check repo status"
 
 # Chat
-gh repo view jordanpartridge/chat --json pushedAt,openIssues
-gh pr list --repo jordanpartridge/chat --state open --json title,url --limit 5
-gh issue list --repo jordanpartridge/chat --state open --limit 5
+gh repo view shadetheory/chat --json pushedAt,openIssues
+gh pr list --repo shadetheory/chat --state open --json title,url --limit 5
+gh issue list --repo shadetheory/chat --state open --limit 5
 ```
 
 ## Output Format

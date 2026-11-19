@@ -50,7 +50,7 @@ Specialized for GitHub activity scanning
 // Pseudocode for the agent deployment
 const agents = [
   { task: "Analyze conduit", prompt: "Deep dive on conduit-ui/conduit..." },
-  { task: "Analyze chat", prompt: "Evaluate jordanpartridge/chat..." },
+  { task: "Analyze chat", prompt: "Evaluate shadetheory/chat..." },
   // ... 8 more agents
 ];
 

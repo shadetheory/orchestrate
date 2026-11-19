@@ -5,7 +5,7 @@ Show all open PRs organized by status and urgency.
 ## Instructions
 
 ```bash
-gh search prs --author jordanpartridge --state open --json repository,title,createdAt,url,isDraft
+gh search prs --author shadetheory --state open --json repository,title,createdAt,url,isDraft
 ```
 
 ## Output Format

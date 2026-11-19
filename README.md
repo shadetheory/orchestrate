@@ -42,7 +42,7 @@ A self-hosted AI chat that lets you switch between models (Claude, GPT, Gemini) 
 
 **Tech:** Laravel 12, Inertia.js, Vue 3, Multi-provider AI
 **Status:** Active Development
-**Repo:** [jordanpartridge/chat](https://github.com/jordanpartridge/chat)
+**Repo:** [shadetheory/chat](https://github.com/shadetheory/chat)
 
 ---
 
@@ -52,10 +52,10 @@ Building the Laravel-native way to interact with the world:
 
 | Package | Description | Stars |
 |---------|-------------|-------|
-| [github-client](https://github.com/jordanpartridge/github-client) | Saloon-based GitHub API wrapper | 4 |
-| [strava-client](https://github.com/jordanpartridge/strava-client) | Fitness data integration | 1 |
-| [spotify-client](https://github.com/jordanpartridge/spotify-client) | Music API for Laravel | - |
-| [packagist-client](https://github.com/jordanpartridge/packagist-client) | Package registry integration | - |
+| [github-client](https://github.com/shadetheory/github-client) | Saloon-based GitHub API wrapper | 4 |
+| [strava-client](https://github.com/shadetheory/strava-client) | Fitness data integration | 1 |
+| [spotify-client](https://github.com/shadetheory/spotify-client) | Music API for Laravel | - |
+| [packagist-client](https://github.com/shadetheory/packagist-client) | Package registry integration | - |
 
 All built on [Saloon](https://docs.saloon.dev/) for consistent, testable HTTP interactions.
 
@@ -124,7 +124,7 @@ It's both a tool and a portfolio piece showing what AI-assisted development look
 ## Connect
 
 - **Website:** [jordanpartridge.us](https://jordanpartridge.us)
-- **GitHub:** [@jordanpartridge](https://github.com/jordanpartridge)
+- **GitHub:** [@shadetheory](https://github.com/shadetheory)
 
 ---
 

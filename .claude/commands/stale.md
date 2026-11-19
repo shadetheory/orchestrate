@@ -8,13 +8,13 @@ Search for stale items:
 
 ```bash
 # PRs older than 30 days
-gh search prs --author jordanpartridge --state open --json repository,title,url,createdAt | jq '[.[] | select(.createdAt < (now - 2592000 | strftime("%Y-%m-%dT%H:%M:%SZ")))]'
+gh search prs --author shadetheory --state open --json repository,title,url,createdAt | jq '[.[] | select(.createdAt < (now - 2592000 | strftime("%Y-%m-%dT%H:%M:%SZ")))]'
 
 # All open PRs to check age
-gh search prs --author jordanpartridge --state open --limit 25 --json repository,title,createdAt,url
+gh search prs --author shadetheory --state open --limit 25 --json repository,title,createdAt,url
 
 # Issues that might be stale
-gh search issues --author jordanpartridge --state open --limit 25 --json repository,title,createdAt,url
+gh search issues --author shadetheory --state open --limit 25 --json repository,title,createdAt,url
 ```
 
 ## Output Format

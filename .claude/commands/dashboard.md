@@ -10,17 +10,17 @@ Create a rich dashboard experience with clear sections. Use box-drawing characte
 
 ```bash
 # 1. Recent activity
-gh api users/jordanpartridge/events --jq '.[0:15] | .[] | "\(.type)|\(.repo.name)|\(.created_at)"'
+gh api users/shadetheory/events --jq '.[0:15] | .[] | "\(.type)|\(.repo.name)|\(.created_at)"'
 
 # 2. Open PRs by me
-gh search prs --author jordanpartridge --state open --json repository,title,createdAt,url --limit 20
+gh search prs --author shadetheory --state open --json repository,title,createdAt,url --limit 20
 
 # 3. Open issues by me
-gh search issues --author jordanpartridge --state open --json repository,title,url --limit 15
+gh search issues --author shadetheory --state open --json repository,title,url --limit 15
 
 # 4. Priority project stats
 gh repo view conduit-ui/conduit --json pushedAt,openIssues 2>/dev/null
-gh repo view jordanpartridge/chat --json pushedAt,openIssues 2>/dev/null
+gh repo view shadetheory/chat --json pushedAt,openIssues 2>/dev/null
 ```
 
 ### Output Format
@@ -38,7 +38,7 @@ gh repo view jordanpartridge/chat --json pushedAt,openIssues 2>/dev/null
 ╠══════════════════════════════════════════════════════════════════╣
 ║  PRIORITY PROJECTS                                                ║
 ║  ├── conduit-ui/conduit     [last push: Xh ago] [X issues]       ║
-║  ├── jordanpartridge/chat   [last push: Xh ago] [X issues]       ║
+║  ├── shadetheory/chat   [last push: Xh ago] [X issues]       ║
 ║  └── conduit-knowledge      [status]                              ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║  OPEN PRs (need attention)                                        ║
